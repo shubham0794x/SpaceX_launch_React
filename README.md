@@ -1,6 +1,10 @@
 
 ## SpaceX Reactjs Application
 
+## Lighthouse Scores 
+
+![Lighthouse Scores](/lighthouse score.png)
+
 In the project directory, you can run:
 
 ### `yarn start`

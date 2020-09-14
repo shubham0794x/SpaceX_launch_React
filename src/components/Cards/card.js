@@ -10,7 +10,7 @@ import {
   EventDetails,
   DetailValue,
 } from "../../styling";
-import defaultImg from "../assets/default.png";
+import defaultImg from "../../assets/default.png";
 
 const Card = (props) => {
   const {

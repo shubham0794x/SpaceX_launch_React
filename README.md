@@ -16,6 +16,7 @@ Live site! https://spacex-reactjs.herokuapp.com/
 ## Mobile Views
 
 ![Mobile Views](/mob1.png)
+![Mobile Views](/mob2.png)
 
 ## Tablet View
 

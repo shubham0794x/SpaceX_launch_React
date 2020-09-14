@@ -1,9 +1,9 @@
 
 ## SpaceX Reactjs Application
 
-## Lighthouse Scores 
+## Lighthouse Scores
 
-![Lighthouse Scores](/lighthouse score.png)
+![Lighthouse Scores](/scores.png)
 
 In the project directory, you can run:
 

@@ -1,6 +1,27 @@
 
 ## SpaceX Reactjs Application
 
+## Live Site
+
+Live site! https://spacex-reactjs.herokuapp.com/
+
+## Lighthouse Scores
+
+![Lighthouse Scores](/scores.png)
+
+## Desktop View
+
+![Desktop View](/desk1.png)
+
+## Mobile Views
+
+![Mobile Views](/mob1.png)
+![Mobile Views](/mob2.png)
+
+## Tablet View
+
+![Tablet View](/tab.png)
+
 In the project directory, you can run:
 
 ### `yarn start`
@@ -25,4 +46,10 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## Resources
+
+- [NodeJS](https://nodejs.org/en/download/)
+- [create-react-app](https://create-react-app.dev/docs/getting-started)
+- [Heroku](https://www.heroku.com/)
 

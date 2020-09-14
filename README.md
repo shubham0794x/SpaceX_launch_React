@@ -11,16 +11,16 @@ Live site! https://spacex-reactjs.herokuapp.com/
 
 ## Desktop View
 
-![Desktop View](/desk1.png)
+![Desktop View](screenshots/desk1.png)
 
 ## Mobile Views
 
-![Mobile Views](/mob1.png)
-![Mobile Views](/mob2.png)
+![Mobile Views](screenshots/mob1.png)
+![Mobile Views](screenshots/mob2.png)
 
 ## Tablet View
 
-![Tablet View](/tab.png)
+![Tablet View](screenshots/tab.png)
 
 In the project directory, you can run:
 

@@ -38,7 +38,7 @@ const Card = (props) => {
 
   return (
     <EventCard>
-      <EventLogo>
+       <EventLogo>
         <EventImg
           data-testid="logo"
           src={mission_patch_small ? mission_patch_small : defaultImg}

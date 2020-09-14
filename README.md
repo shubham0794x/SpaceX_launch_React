@@ -7,7 +7,7 @@ Live site! https://spacex-reactjs.herokuapp.com/
 
 ## Lighthouse Scores
 
-![Lighthouse Scores](/scores.png)
+![Lighthouse Scores](screenshots/scores.png)
 
 ## Desktop View
 

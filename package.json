@@ -11,9 +11,8 @@
     "react-scripts": "^3.0.1",
     "styled-components": "^5.0.1"
   },
-  "devDependencies": {
-  },
-    "eslintConfig": {
+  "devDependencies": {},
+  "eslintConfig": {
     "extends": "react-app"
   },
   "scripts": {

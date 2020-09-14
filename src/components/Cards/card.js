@@ -10,7 +10,6 @@ import {
   EventDetails,
   DetailValue,
 } from "../../styling";
-import defaultImg from "../../assets/default.png";
 
 const Card = (props) => {
   const {
@@ -42,7 +41,7 @@ const Card = (props) => {
         <EventImg
           data-testid="logo"
           src={mission_patch_small}
-          alt={defaultImg }
+          alt=""
         />
       </EventLogo>
       <EventDetails>

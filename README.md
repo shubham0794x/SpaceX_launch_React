@@ -5,6 +5,18 @@
 
 ![Lighthouse Scores](/scores.png)
 
+## Desktop View
+
+![Desktop View](/desk1.png)
+
+## Mobile Views
+
+![Mobile Views](/mob1.png)
+
+## Tablet View
+
+![Tablet View](/tab.png)
+
 In the project directory, you can run:
 
 ### `yarn start`

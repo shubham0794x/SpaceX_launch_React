@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from "react";
 
 import {
   AppContainer,
@@ -7,14 +7,13 @@ import {
   LaunchInfoSection,
   CardsContainer,
   SideBar,
-  LoaderAligner,
   DetailKey,
   Footer,
 } from "./styling";
 
-import Cards from "./components/Cards/card";
+import Card from "./components/Cards/card";
 import Axios from "axios";
-import filter from "./components/Filter/filter";
+import Filters from "./components/Filter/filter";
 
 const baseUrl = `https://api.spaceXdata.com/v3/launches?limit=100`;
 
@@ -25,7 +24,7 @@ function App() {
   const [launchStatus, setLaunchFilter] = useState(null);
   const [landStatus, setLandFilter] = useState(null);
 
-const handleStatusFilter = (type, status) => {
+  const handleStatusFilter = (type, status) => {
     if (type === "launch") {
       setLaunchFilter(status);
       return;
@@ -33,7 +32,7 @@ const handleStatusFilter = (type, status) => {
     setLandFilter(status);
   };
 
-    const handleYearFilter = (v) => {
+  const handleYearFilter = (v) => {
     v.stopPropagation();
     const year = v.target.dataset.year;
     setYearFilter(year);
@@ -56,4 +55,38 @@ const handleStatusFilter = (type, status) => {
     updateData();
   }, [selectedYear, landStatus, launchStatus]);
 
+  return (
+    <AppContainer>
+      <Header>SpaceX Launch Programs</Header>
+      <ViewSection>
+        <SideBar>
+          <Filters
+            handleYearFilter={handleYearFilter}
+            selectedYear={selectedYear}
+            handleStatusFilter={handleStatusFilter}
+            launchStatus={launchStatus}
+            landStatus={landStatus}
+          />
+        </SideBar>
+        <LaunchInfoSection>
+          {isLoading}  
+            <CardsContainer>
+              {programData.map((event, i) => (
+                    <Card
+                      event={event}
+                      key={`event-${i}`}
+                      landStatus={landStatus}
+                    />
+                  ))}
+            </CardsContainer>
+          
+        </LaunchInfoSection>
+      </ViewSection>
+      <Footer>
+        <DetailKey>Developed By :</DetailKey> Shubham Bhadani
+      </Footer>
+    </AppContainer>
+  );
+}
 
+export default App;

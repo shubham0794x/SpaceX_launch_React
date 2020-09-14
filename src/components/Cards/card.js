@@ -12,7 +12,6 @@ import {
 } from "../../styling";
 import defaultImg from "../../assets/default.png";
 
-
 const Card = (props) => {
   const {
     flight_number,
@@ -39,7 +38,7 @@ const Card = (props) => {
 
   return (
     <EventCard>
-       <EventLogo>
+      <EventLogo>
         <EventImg
           data-testid="logo"
           src={mission_patch_small ? mission_patch_small : defaultImg}

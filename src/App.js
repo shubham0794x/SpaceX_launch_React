@@ -69,17 +69,12 @@ function App() {
           />
         </SideBar>
         <LaunchInfoSection>
-          {isLoading}  
-            <CardsContainer>
-              {programData.map((event, i) => (
-                    <Card
-                      event={event}
-                      key={`event-${i}`}
-                      landStatus={landStatus}
-                    />
-                  ))}
-            </CardsContainer>
-          
+          {isLoading}
+          <CardsContainer>
+            {programData.map((event, i) => (
+              <Card event={event} key={`event-${i}`} landStatus={landStatus} />
+            ))}
+          </CardsContainer>
         </LaunchInfoSection>
       </ViewSection>
       <Footer>

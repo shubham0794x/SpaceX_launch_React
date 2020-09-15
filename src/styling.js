@@ -93,9 +93,12 @@ export const CardsContainer = styled.div`
   grid-gap: 10px;
   grid-template-columns: repeat(1, minmax(250px, 250px));
   @media only screen and (min-width: 700px) {
-    grid-template-columns: repeat(2, minmax(150px, 250px));
+    grid-template-columns: repeat(2, minmax(150px, 200px));
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 900px) {
+    grid-template-columns: repeat(2, minmax(150px, 290px));
+  }
+  @media only screen and (min-width: 1025px) {
     grid-template-columns: repeat(4, minmax(150px, 280px));
   }
 `;

@@ -20,9 +20,21 @@ Live site! https://spacex-reactjs.herokuapp.com/
 
 ## Tablet View
 
-![Tablet View](screenshots/tab.png)
+![Tablet View](screenshots/tab1.png)
 
 In the project directory, you can run:
+
+## Project Set Up
+
+- [ ] Create a forked copy of this project.
+- [ ] Add your team lead as collaborator on Github.
+- [ ] Clone your OWN version of the repository in your terminal.
+- [ ] CD into the project base directory `cd SpaceX_launch_React`.
+- [ ] Download project dependencies by running `npm install`.
+- [ ] Start up the app using `npm start`.
+- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [ ] Push commits: git push origin `<firstName-lastName>`.
 
 ### `yarn start`
 
@@ -49,7 +61,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Resources
 
-- [NodeJS](https://nodejs.org/en/download/)
 - [create-react-app](https://create-react-app.dev/docs/getting-started)
 - [Heroku](https://www.heroku.com/)
+- [NodeJS](https://nodejs.org/en/download/)
 

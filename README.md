@@ -1,5 +1,5 @@
 
-## SpaceX Reactjs Application
+## SpaceX Reactjs Application [![Build Status](https://travis-ci.org/dwyl/esta.svg?branch=master)](https://travis-ci.org/)
 
 ## Live Site
 
@@ -61,6 +61,14 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## Stack Used
+
+1. Reactjs
+2. Create-react-app boilerplate for rendering
+3. Styled-components for styling
+4. Jest for testing React Components
+5. Express for server-side-rendering.
 
 ## Resources
 

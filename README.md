@@ -36,6 +36,10 @@ In the project directory, you can run:
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
 
+In the project directory, you can run:
+
+### `yarn install`
+
 ### `yarn start`
 
 Runs the app in the development mode.<br />

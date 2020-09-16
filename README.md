@@ -22,7 +22,6 @@ Live site! https://spacex-reactjs.herokuapp.com/
 
 ![Tablet View](screenshots/tab1.png)
 
-In the project directory, you can run:
 
 ## Project Set Up
 

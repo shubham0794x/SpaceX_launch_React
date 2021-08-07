@@ -69,6 +69,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 3. Styled-components for styling
 4. Jest for testing React Components
 5. Express for server-side-rendering.
+6. React Hooks , useState , useEffect...
 
 ## Resources
 

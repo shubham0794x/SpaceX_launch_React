@@ -73,7 +73,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Tech Used
 
-Hooks are a new addition in React environment. They let you use state and other React features without writing a class
+Hooks are a new addition in React environment. They let you use state and other React features without writing a class. Hooks are the functions which "hook into" React state and lifecycle features from function components.
 
 ## Resources
 

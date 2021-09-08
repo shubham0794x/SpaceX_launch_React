@@ -71,6 +71,10 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 5. Express for server-side-rendering.
 6. React Hooks , useState , useEffect...
 
+## Tech Used
+
+Hooks are a new addition in React environment. They let you use state and other React features without writing a class
+
 ## Resources
 
 - [create-react-app](https://create-react-app.dev/docs/getting-started)

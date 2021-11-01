@@ -83,7 +83,7 @@ function App() {
         </LaunchInfoSection>
       </ViewSection>
       <Footer>
-        <DetailKey>Developed By :</DetailKey> Shubham Bhadani
+        <DetailKey></DetailKey>
       </Footer>
     </AppContainer>
   );
